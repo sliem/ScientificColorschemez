@@ -2,9 +2,9 @@
 
 I cannot be alone in marvelling in the fantastic colorschemes invented by [@colorschemez](https://twitter.com/colorschemez) hourly! Colors with such tantilising names such as *genethlialogical bluish purple* and *fond saffron*.
 
-Of course, I need to use these in my day-to-day production of scientific figures but staying up to date to the hourly fashion is simply too hard.
+Of course, I have a burning need to use these in my day-to-day production of scientific figures. But staying updated with the fashion of the hour is simply too much work!
 
-Enter ScientificColorschemez! This codes automates the processes of downloading the latest innovation from [@colorschemez](https://twitter.com/colorschemez) and extracting the colors.
+Enter ScientificColorschemez! This code downloads the latest innovation from [@colorschemez](https://twitter.com/colorschemez) and extracts the colors, ready to be used in your next plot!
 
 ## Example
 
@@ -40,8 +40,8 @@ and the figure
 
 ## Installation
 
-Just download the code, the dependencies are: 
+I've have not bothered packaging the code due to lazyness (pull requests welcome!), so for now just download the code, the dependencies are: 
 [tweepy](www.tweepy.org/), [scikit-learn](http://scikit-learn.org/), [matplotlib](https://matplotlib.org/), [scipy](https://www.scipy.org/), [pillow](https://python-pillow.org/), and [requests](http://docs.python-requests.org/en/master/).
-A Pipfile and a requirements.txt is included.
+A Pipfile and a requirements.txt is included so you can easily install these dependencies.
 
-To use the software you need to reqister an Twitter app and give it access to your account. You need to generate various OAuth tokens and secrets and populate them in a config.py. To help you with that you can run the included program generate_config.py.
+To use the code you need to reqister an Twitter app and give it access to your account. You need to generate various OAuth tokens and secrets and populate them in a config.py. To help you with that you can run the included program generate_config.py.
